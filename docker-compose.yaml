@@ -1,7 +1,7 @@
 version: "3"
 services:
   nginx:
-    image: nginx:alpine
+    image: nginx:latest
     volumes:
       - ./nginx:/etc/nginx/conf.d
       - ./key:/etc/nginx/key
