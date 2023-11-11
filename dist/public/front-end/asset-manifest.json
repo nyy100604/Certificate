@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e27dc300.css",
+    "main.js": "/static/js/main.c026aa95.js",
+    "static/media/幼教師培.png": "/static/media/幼教師培.ba7f4092d689c131b40d.png",
+    "static/media/證書.png": "/static/media/證書.754e4718e6e6a48fcbdb.png",
+    "static/media/我的證書.png": "/static/media/我的證書.cdce9c90a4c42203ea6e.png",
+    "static/media/創建課程.png": "/static/media/創建課程.8a3e3498500593a7eb6c.png",
+    "static/media/Go.png": "/static/media/Go.50990aaa845e73e81834.png",
+    "static/media/bc.png": "/static/media/bc.a38ebf812fa35de11233.png",
+    "static/media/證書發送狀態.png": "/static/media/證書發送狀態.cfcd1d716e20b5a7245a.png",
+    "static/media/師大.png": "/static/media/師大.f6743573beed0737eed5.png",
+    "static/media/幼教.png": "/static/media/幼教.291687330d8279751d22.png",
+    "index.html": "/index.html",
+    "main.e27dc300.css.map": "/static/css/main.e27dc300.css.map",
+    "main.c026aa95.js.map": "/static/js/main.c026aa95.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e27dc300.css",
+    "static/js/main.c026aa95.js"
+  ]
+}

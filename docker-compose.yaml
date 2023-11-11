@@ -1,0 +1,41 @@
+version: "3"
+services:
+  nginx:
+    image: nginx:alpine
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+      - ./key:/etc/nginx/key
+    ports:
+      - 80:80
+      - 443:443
+  
+
+  server1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+     
+      args:
+        - PORT=3001 
+    depends_on:
+      - mongo
+    volumes:
+        - ./public:/usr/src/app/public
+
+  mongo:
+    image: mongo:latest
+    
+    ports:
+      - 27017:27017
+    volumes:
+      - mongo_data:/data/db
+    
+volumes:
+  mongo_data:
+      
+
+
+
+
+
+
